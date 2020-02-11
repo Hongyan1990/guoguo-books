@@ -18,7 +18,7 @@
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"appid": "wxdc0388b732478c12",
+	"appid": "",
 	"projectname": "guoguo-books",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
