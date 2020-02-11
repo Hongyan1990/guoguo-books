@@ -3,10 +3,10 @@ const CONF = {
     rootPathname: '', //  /data/release/weapp
 
     // 微信小程序 App ID
-    appId: 'wxdc0388b732478c12',
+    appId: '',
 
     // 微信小程序 App Secret
-    appSecret: '6bdec082331fac02619c6a4e8c5d0327',
+    appSecret: '',
 
     // 是否使用腾讯云代理登录小程序
     useQcloudLogin: true,
@@ -17,11 +17,11 @@ const CONF = {
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
     mysql: {
-        host: '119.23.72.26',
+        host: '',
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: 'hong180991..',
+        pass: '',
         char: 'utf8mb4'
     },
 
@@ -45,11 +45,11 @@ const CONF = {
     // https://www.9526.site
     serverHost: 'localhost',
     tunnelServerUrl: '',
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    tunnelSignatureKey: '',
     // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-    qcloudAppId: '1258452860',
-    qcloudSecretId: 'AKIDfFLBn85J1PDsSqgXaP2l9YJ2V3HCKJzQ',
-    qcloudSecretKey: 'MS8Y0CC7nTwzmhOoOkyxCAtNaUAF3sTI',
+    qcloudAppId: '',
+    qcloudSecretId: '',
+    qcloudSecretKey: '',
     wxMessageToken: 'weixinmsgtoken',
     networkTimeout: 30000
 }
